@@ -34,9 +34,9 @@ namespace Financiero
         //En este método se pueden espicifcar todas las URL de la página para aplicar URL Amigables.
         void FriendlyUrl()
         {
-  
-            RouteTable.Routes.MapPageRoute("CDP/GenerarCDP", "CDP/GenerarCDP", "~/App/CDP/GenerarCDP.aspx");
-            RouteTable.Routes.MapPageRoute("ejemplo", "ejemplo", "~/ejemplo.aspx");
+
+           
+            
 
         }
     }

@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\CDP\GenerarCDP.aspx" />
+    <Content Include="App\CDP\VerCDP.aspx" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\theme.css" />
@@ -167,7 +168,6 @@
     <Content Include="Content\themes\base\tabs.css" />
     <Content Include="Content\themes\base\theme.css" />
     <Content Include="Content\themes\base\tooltip.css" />
-    <Content Include="ejemplo.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\bullet.png" />
@@ -195,12 +195,12 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\ie10-viewport-bug-workaround.js" />
-    <Content Include="Scripts\jquery-1.11.3.min.js" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\jquery-ui-1.11.4.js" />
     <Content Include="Scripts\jquery-ui-1.11.4.min.js" />
+    <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\WebForms\funciones.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
@@ -247,6 +247,13 @@
     <Compile Include="App\CDP\GenerarCDP.aspx.designer.cs">
       <DependentUpon>GenerarCDP.aspx</DependentUpon>
     </Compile>
+    <Compile Include="App\CDP\VerCDP.aspx.cs">
+      <DependentUpon>VerCDP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\CDP\VerCDP.aspx.designer.cs">
+      <DependentUpon>VerCDP.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -259,13 +266,6 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ejemplo.aspx.cs">
-      <DependentUpon>ejemplo.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ejemplo.aspx.designer.cs">
-      <DependentUpon>ejemplo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

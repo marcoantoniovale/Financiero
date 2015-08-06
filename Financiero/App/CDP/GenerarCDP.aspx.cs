@@ -27,8 +27,8 @@ namespace Financiero.App.CDP
 
             cargarComunas();
             cargarRegiones();
-            Label1.Enabled = false;
-            Label2.Enabled = false;
+            
+      
             
            
 
@@ -36,18 +36,7 @@ namespace Financiero.App.CDP
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            cdpDTO dto = new cdpDTO();
-            DataSet ds = new DataSet();
-
-
-           // dto.asdasd();
-            String strDato = DropDownList1.Text;
-            String strDato2 = DDModeloAtencion.Text;
-
-
-
-
-
+            
             
            
         }
@@ -58,11 +47,11 @@ namespace Financiero.App.CDP
 
             da = cdp.comuna();
             da.Fill(ds);
-            this.DropDownList1.DataSource = ds;
+            /*this.DropDownList1.DataSource = ds;
             this.DropDownList1.DataValueField = "id_comuna";
             this.DropDownList1.DataTextField = "descripcion";
             this.DropDownList1.DataBind();
-            this.DropDownList1.Items.Insert(0, new ListItem("Elija una Opcion..", "0"));
+            this.DropDownList1.Items.Insert(0, new ListItem("Elija una Opcion..", "0"));*/
         }
 
         void cargarRegiones()
@@ -70,11 +59,7 @@ namespace Financiero.App.CDP
             DataSet ds = new DataSet();
             da = cdp.consulta();
             da.Fill(ds);
-            this.DDModeloAtencion.DataSource = ds;
-            this.DDModeloAtencion.DataValueField = "id_modAtencion";
-            this.DDModeloAtencion.DataTextField = "decripcion";
-            this.DDModeloAtencion.DataBind();
-            this.DDModeloAtencion.Items.Insert(0, new ListItem("Elija una Opcion..", "0"));
+         
         }
 
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)

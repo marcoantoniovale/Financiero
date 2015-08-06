@@ -11,6 +11,8 @@ namespace Financiero
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.EnableFriendlyUrls();
+            routes.MapPageRoute("rutaCdp", "generarCDP", "~/App/CDP/generarCDP.aspx", false);
+
         }
     }
 }

@@ -27,10 +27,7 @@
     
             <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=272931&clcid=0x409 --%>
             <%--Framework Scripts--%>
-            <asp:ScriptReference Path="~/Scripts/jquery-1.11.3.min.js" />
-            <asp:ScriptReference Path="~/Scripts/bootstrap.js" />
-            <asp:ScriptReference Path="~/Scripts/bootstrap.min.js" />
-            <asp:ScriptReference Path="~/Scripts/ie10-viewport-bug-workaround.js" />
+            
             <asp:ScriptReference Name="MsAjaxBundle" />
             <asp:ScriptReference Name="jquery" />          
             <asp:ScriptReference Name="jquery.ui.combined" />
@@ -54,7 +51,7 @@
             <div class="row">
                 <article class="col-md-12">
                     <div class="logo">
-                        <a href="/"><img src="Images/header_senainfo.png" alt="header-senainfo"></a>
+                        <a runat="server" href="~/"><img src="Images/header_senainfo.png" alt="header-senainfo"></a>
                     </div>
                 </article>
             </div>
@@ -217,9 +214,15 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Financiero <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="../financiero/financiero.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> Financiero 1</a></li>
-                    <li><a id="A1" runat="server" href="~/">Inicio</a></li>
-                    <li><a id="A2" runat="server" href="~/GenerarCDP">Generar CDP</a></li>    
+                       <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#"><span class="glyphicon glyphicon glyphicon-book" aria-hidden="true"></span>  CDP</a>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" runat="server" href="~/GenerarCDP"> Generar CDP</a></li>
+                          
+                        </ul>
+                    </li>
+                    
+                      
                   </ul>
                 </li>
                 <li class="dropdown">
@@ -260,6 +263,11 @@
             Dirección Nacional: Huérfanos 587 Santiago Centro / Teléfono: (02) 23984000 </br>
             Todos los derechos reservados / Políticas de Privacidad</p>
         </div>
+
+            <script src="../Scripts/jquery.min.js"></script>
+            <script src="../Scripts/bootstrap.min.js"></script>
+            <script src="../Scripts/ie10-viewport-bug-workaround.js"></script>
+            <script src="http://code.jquery.com/jquery-latest.js"></script>
            
    
     </footer>
