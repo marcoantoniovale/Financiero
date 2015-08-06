@@ -1,0 +1,269 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Financiero.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="es">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title><%: Page.Title %></title>
+    <asp:PlaceHolder runat="server">     
+          <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>  
+    <webopt:BundleReference runat="server" Path="~/Content/css" /> 
+    <meta name="viewport" content="width=device-width" />
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+     <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet">
+    <link  href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <link  href="~/Content/theme.css" rel="stylesheet">
+   
+</head>
+<body>
+     <!--<asp:ScriptReference Name="jquery" />-->
+    <form runat="server">
+    <asp:ScriptManager runat="server">
+         
+            <Scripts>
+    
+            <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=272931&clcid=0x409 --%>
+            <%--Framework Scripts--%>
+            <asp:ScriptReference Path="~/Scripts/jquery-1.11.3.min.js" />
+            <asp:ScriptReference Path="~/Scripts/bootstrap.js" />
+            <asp:ScriptReference Path="~/Scripts/bootstrap.min.js" />
+            <asp:ScriptReference Path="~/Scripts/ie10-viewport-bug-workaround.js" />
+            <asp:ScriptReference Name="MsAjaxBundle" />
+            <asp:ScriptReference Name="jquery" />          
+            <asp:ScriptReference Name="jquery.ui.combined" />
+            <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+            <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+            <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+            <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+            <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+            <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+            <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+            <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+            <asp:ScriptReference Name="WebFormsBundle" />
+            <%--Site Scripts--%>
+
+        </Scripts>
+    </asp:ScriptManager>
+    <header>
+
+          <div class="header-banner" id="header-top">
+        <div class="container">
+            <div class="row">
+                <article class="col-md-12">
+                    <div class="logo">
+                        <a href="/"><img src="Images/header_senainfo.png" alt="header-senainfo"></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+        <div class="navbar-senainfo">
+       <nav class="navbar">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="../../index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="sr-only">(current)</span></a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span> Menu <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#"><span class="glyphicon glyphicon glyphicon-book" aria-hidden="true"></span>  Institución/Proyecto</a>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="mod_instituciones/reg_instituciones.aspx"> Instituciones</a></li>
+                            <li><a tabindex="-1" href="mod_instituciones/reg_trabajadores.aspx"> Trabajadores</a></li>
+                            <li><a tabindex="-1" href="mod_instituciones/reg_inmuebles.aspx"> Inmuebles</a></li>
+                            <li class="dropdown-submenu">
+                                <a href="mod_proyectos/proyectoreferente.aspx"> Proyectos</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="mod_instituciones/reg_trabajadoresproy.aspx"> Relacionar trabajador al proyecto</a></li>
+                                    <li><a href="mod_instituciones/reg_inmueblesproy.aspx"> Relacionar Inmueble al proyecto</a></li>
+                                    <li><a href="mod_instituciones/reg_eventosproy.aspx"> Evento del proyecto</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a tabindex="-1" href="#"> Rendición de cuentas</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="mod_instituciones/Reg_Ingresos.aspx"> Registro ingreso</a></li>
+                                            <li><a href="mod_instituciones/Reg_egresos.aspx"> Registro egreso</a></li>
+                                            <li><a href="mod_instituciones/Reg_Rendicion.aspx"> Rendición de cuentas</a></li>
+                                            <li><a href="mod_instituciones/Reg_Ingresos_Instituciones.aspx"> Registro ingresos instituciones</a></li>
+                                            <li><a href="mod_instituciones/Reg_Egresos_Instituciones.aspx"> Registro egresos instituciones</a></li>
+                                            <li><a href="mod_instituciones/Reg_Rendicion_Instituciones.aspx"> Rendición de cuentas instituciones</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="mod_proyectos/proyectoadjudicadoenejecucion.aspx"> Resoluciones</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#"><span class="glyphicon glyphicon-pawn" aria-hidden="true"></span> Ñinos</a>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="./mod_ninos/ingreso/ninos_index.html"> Ingreso del Niño</a></li>
+                            <li><a tabindex="-1" href="./mod_ninos/datosdegestion/datosdegestion.html"> Datos de Gestión</a></li>
+                            <li><a tabindex="-1" href="mod_ninos/ninos_diagnosticoninos.aspx"> Diagnóstico del Niño</a></li>
+                            <li class="dropdown-submenu">
+                                <a href="#"> Planes de intervención</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="mod_ninos/plan_intervencion_new.aspx"> Nuevo plan de intervensión</a></li>
+                                    <li><a href="mod_ninos/pi_gestion.aspx"> Gestionar plan de intervensión</a></li>
+                                </ul>
+                            </li>
+                            <li><a tabindex="-1" href="mod_ninos/ninos_egreso.aspx"> Egresos</a></li>
+                            <li><a tabindex="-1" href="./mod_ninos/cierremes/cierre_movmensual.html"> Cierre de mes información del Niño</a></li>
+                            <li><a tabindex="-1" href="mod_ninos/ninos_relacionados.aspx"> Niños relacionados</a></li>
+                            <li><a tabindex="-1" href="mod_ninos/ninos_visitados.aspx"> Niños visitados</a></li>
+                            <li><a tabindex="-1" href="mod_ninos/ninos_direccionnino.aspx"> Dirección Niños</a></li>
+                            <li><a tabindex="-1" href="mod_ninos/ninos_adn.aspx"> Muestra ADN</a></li>
+                        </ul>
+                    </li>
+                
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#"><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Consultar información reportes</a>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="mod_reportes/Rep_instituciones.aspx"> Instituciones</a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_proyectos.aspx"> Proyectos</a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_resoluciones.aspx"> Resoluciones</a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_Catastro.aspx"> Catastro</a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_EvProyecto.aspx"> Eventos del Proyecto</a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_ninos.aspx"> Niños</a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_ninosAdoptabilidad.aspx"> Caracteristicas de Adoptabilidad</a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_eventos.aspx"> Plan de intervención</a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_ReportesLRPA.aspx"> LRPA</a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_ninosvisitados.aspx"> Niños visitados</a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_Diligencias.aspx"> Datos de gestón niños</a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_Diag_Ninos.aspx"> Diagnósticos Niños </a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_NinosDeteccionPrecoz.aspx"> Niños detección precoz</a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_MonitoreoIndicadores.aspx"> Monitoreo de indicadores</a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_ListadeEspera.aspx"> Lista de espera</a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_Estadistico.aspx"> Reportes estadísticos (CDC)</a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_TrabajadorUsuario.aspx"> Trabajos - Usuarios</a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_TrabajadoresRut.aspx"> Reporte trabajadores</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Recepción de documentos</a>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="#"> Instituciones</a></li>
+                            <li><a tabindex="-1" href="#"> Trabajadores</a></li>
+                            <li><a tabindex="-1" href="#"> Inmuebles</a></li>
+                            <li class="dropdown-submenu">
+                                <a href="#"> Proyectos</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"> Relacionar trabajador al proyecto</a></li>
+                                    <li><a href="#"> Relacionar Inmueble al proyecto</a></li>
+                                    <li><a href="#"> Evento del proyecto</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a tabindex="-1" href="#"> Rendición de cuentas</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#"> Registro ingreso</a></li>
+                                            <li><a href="#"> Registro egreso</a></li>
+                                            <li><a href="#"> Rendición de cuentas</a></li>
+                                            <li><a href="#"> Registro ingresos instituciones</a></li>
+                                            <li><a href="#"> Registro egresos instituciones</a></li>
+                                            <li><a href="#"> Rendición de cuentas instituciones</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="mod_proyectos/proyectoadjudicadoenejecucion.aspx"> Resoluciones</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="manuales/index.htm"><span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span>  Manuales</a></li>
+
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> Mesa de ayuda</a>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="#"> Trabajadores obtención Usuarios y Claves</a></li>
+                            <li><a tabindex="-1" href="mod_mesa/mesa_rectificacionidentidad.aspx"> Rectificación de Identidad</a></li>
+                            <li><a tabindex="-1" href="mod_ninos/cierre_registroatencion.aspx"> Regenerar cierre</a></li>
+                            <li><a tabindex="-1" href="#"> Mantenedor de niños</a></li>
+                        </ul>
+                    </li>
+                    <!-- MODULO: Mantendores -->
+                    <li><a href="mod_mantenedores/index_mantenedores.aspx"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Mantendores</a></li>
+                    <!-- MODULO: Coordinador Judicial -->
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#"><span class="glyphicon glyphicon-tower" aria-hidden="true"></span> Coordinador Judicial</a>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="mod_coordinadores/coordinadores_ingreso.aspx"> Ingresar</a></li>
+                            <li><a tabindex="-1" href="mod_coordinadores/New_CoordinadoresModif.aspx"> Modificar</a></li>
+                            <li><a tabindex="-1" href="mod_reportes/Rep_Informes_Coordinador.aspx"> Reportes</a></li>
+                            <li><a tabindex="-1" href="links/INSTRUCTIVO-COORDINADORES.pdf"> Instructivo</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="mod_jueces/Historial_Ninos_Jueces.aspx"><span class="glyphicon glyphicon-star" aria-hidden="true"></span> SENAME LRPA</a></li>
+                    <li><a href="mod_jueces/Historial_Ninos_Jueces.aspx?Param01=1"><span class="glyphicon glyphicon-star" aria-hidden="true"></span> SENAME PROTECCIÓN</a></li>
+                    <li><a href="mod_reportes/Rep_ProyectosJueces.aspx"><span class="glyphicon glyphicon-star" aria-hidden="true"></span> REPORTE VACANTES</a></li>
+                    <li><a href="mod_mesa/mesa_excepciones.aspx"><span class="glyphicon glyphicon-star" aria-hidden="true"></span> Mesa de Ayuda UPLAE</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Financiero <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="../financiero/financiero.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> Financiero 1</a></li>
+                    <li><a id="A1" runat="server" href="~/">Inicio</a></li>
+                    <li><a id="A2" runat="server" href="~/GenerarCDP">Generar CDP</a></li>    
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span> Histórico <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="../historico/historico.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> Histórico 1</a></li>
+                  </ul>
+                </li>
+                
+              </ul>
+         
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="./nnvigentes.html"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Niños, Niñas y Adolescentes Vigentes</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Luis Prieto <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="./misdatos.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Mis datos</a></li>
+                    <li><a href="./login.html"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Cerrar sesión</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </div><!-- FIN MENU -->
+
+       
+    </header>
+    <div id="body">
+        <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+        <section class="content-wrapper main-content clear-fix">
+            <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright (c) Servicio Nacional de Menores - Chile </br>
+            Dirección Nacional: Huérfanos 587 Santiago Centro / Teléfono: (02) 23984000 </br>
+            Todos los derechos reservados / Políticas de Privacidad</p>
+        </div>
+           
+   
+    </footer>
+    </form>
+
+</body>
+</html>
