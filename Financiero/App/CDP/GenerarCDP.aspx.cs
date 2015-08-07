@@ -16,6 +16,7 @@ namespace Financiero.App.CDP
     public partial class GenerarCDP : System.Web.UI.Page
     {
         cdpDAO cdp = new cdpDAO();
+        ComunaDao comunaDao = new ComunaDao();
         
         SqlDataAdapter da = new SqlDataAdapter();
 
@@ -37,7 +38,7 @@ namespace Financiero.App.CDP
         {
             DataSet ds = new DataSet();
 
-            da = cdp.comuna();
+            da = comunaDao.getComuna();
             da.Fill(ds);
             this.ddComuna.DataSource = ds;
             this.ddComuna.DataValueField = "id_comuna";
