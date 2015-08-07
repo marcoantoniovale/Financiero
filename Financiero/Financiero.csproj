@@ -132,6 +132,7 @@
   <ItemGroup>
     <Content Include="App\CDP\GenerarCDP.aspx" />
     <Content Include="App\CDP\VerCDP.aspx" />
+    <Content Include="App\Mantenedores\wf_Regiones.aspx" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\theme.css" />
@@ -254,10 +255,18 @@
     <Compile Include="App\CDP\VerCDP.aspx.designer.cs">
       <DependentUpon>VerCDP.aspx</DependentUpon>
     </Compile>
+    <Compile Include="App\Mantenedores\wf_Regiones.aspx.cs">
+      <DependentUpon>wf_Regiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Mantenedores\wf_Regiones.aspx.designer.cs">
+      <DependentUpon>wf_Regiones.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Class\DAO\cdpDAO.cs" />
+    <Compile Include="Class\DAO\ComunaDao.cs" />
     <Compile Include="Class\Database.cs" />
     <Compile Include="Class\DTO\cdpDTO.cs" />
     <Compile Include="Default.aspx.cs">
