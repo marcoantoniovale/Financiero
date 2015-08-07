@@ -23,21 +23,13 @@ namespace Financiero.App.CDP
         {
             //Database db = new Database();
 
-
-
             cargarComunas();
             cargarRegiones();
             
-      
-            
-           
-
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            
-            
            
         }
 
@@ -47,6 +39,11 @@ namespace Financiero.App.CDP
 
             da = cdp.comuna();
             da.Fill(ds);
+            this.ddComuna.DataSource = ds;
+            this.ddComuna.DataValueField = "id_comuna";
+            this.ddComuna.DataTextField = "descripcion";
+            this.ddComuna.DataBind();
+            this.ddComuna.Items.Insert(0, new ListItem("Elija una Opcion..", "0"));
             /*this.DropDownList1.DataSource = ds;
             this.DropDownList1.DataValueField = "id_comuna";
             this.DropDownList1.DataTextField = "descripcion";

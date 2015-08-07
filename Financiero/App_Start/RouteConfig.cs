@@ -12,7 +12,8 @@ namespace Financiero
         {
             routes.EnableFriendlyUrls();
             routes.MapPageRoute("rutaCdp", "generarCDP", "~/App/CDP/generarCDP.aspx", false);
-
+            routes.MapPageRoute("rutaVerCdp", "VerCDP", "~/App/CDP/VerCDP.aspx", false);
+            
         }
     }
 }
