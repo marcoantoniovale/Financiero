@@ -36,4 +36,3 @@ c:\users\jaime\documents\visual studio 2012\Projects\Financiero\Financiero\bin\e
 c:\users\jaime\documents\visual studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.dll
 c:\users\jaime\documents\visual studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.pdb
 C:\Users\Jaime\documents\visual studio 2012\Projects\Financiero\Financiero\bin\AjaxControlToolkit.dll
-C:\Users\Jaime\documents\visual studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.csprojResolveAssemblyReference.cache

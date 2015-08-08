@@ -222,6 +222,14 @@
                           
                         </ul>
                     </li>
+                      <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#"><span class="glyphicon glyphicon glyphicon-book" aria-hidden="true"></span>Mantenedores</a>
+                        <ul class="dropdown-menu">
+                            <li><a id="A2" tabindex="-1" runat="server" href="~/MantenedorRegion"> Regiones</a></li>
+                            <li><a id="A3" tabindex="-1" runat="server" href="~/MantenedorModAtencion">Modelo de Atenci&oacute;n</a></li>
+                            <li><a id="A4" tabindex="-1" runat="server" href="~/VerCDP">Comunas</a></li>                
+                        </ul>
+                    </li>
                     
                       
                   </ul>

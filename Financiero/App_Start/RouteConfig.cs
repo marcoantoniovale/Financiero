@@ -11,9 +11,10 @@ namespace Financiero
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.EnableFriendlyUrls();
-            routes.MapPageRoute("rutaCdp", "generarCDP", "~/App/CDP/generarCDP.aspx", false);
+            routes.MapPageRoute("rutaGenCdp", "generarCDP", "~/App/CDP/generarCDP.aspx", false);
             routes.MapPageRoute("rutaVerCdp", "VerCDP", "~/App/CDP/VerCDP.aspx", false);
-            
+            routes.MapPageRoute("rutaMantenedorwf_Region", "MantenedorRegion", "~/App/Mantenedores/wf_Regiones.aspx", false);
+            routes.MapPageRoute("rutaMantenedrwf_ModeloAtencion", "MantenedorModAtencion", "~/App/Mantenedores/wf_ModeloAtencion.aspx", false);
         }
     }
 }
