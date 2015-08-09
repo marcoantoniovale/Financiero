@@ -5,8 +5,10 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
+       
        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
        </asp:UpdatePanel>
+       
        <h1 class="text-center">Mantenedor Regiones</h1>
         <div class="page-header">
               <h3>I. Identificación de Regi&oacute;n</h3>
@@ -27,11 +29,32 @@
            </div>
 
 
-      </div>
+      
    
-    <div>
+   
         <asp:Button ID="btnGuardarRegion" runat="server" CssClass="btn btn-sename-md" Text="Guardar Región" OnClick="btnGuardarRegion_Click" />
         <asp:Label ID="Alerta" runat="server" Text=""></asp:Label>
+        <br />
+       </div>
+         <div class="row">
+            <div class="panel panel-default">
+                <h1 class="text-center">Ver Regiones </h1>
+                <div class="table-responsive">
+           <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+        </div>
+                </div>
+        </div>
+
+        <div class="">
+        
+           
+
+        </div>
+      
+        
+
     </div>
-</div>
+        
+        
+
 </asp:Content>

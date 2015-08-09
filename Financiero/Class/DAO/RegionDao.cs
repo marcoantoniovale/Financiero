@@ -37,5 +37,33 @@ namespace Financiero.Class.DAO
 
 
 
+        public SqlDataAdapter getRegion()
+        {
+            SqlDataAdapter da = new SqlDataAdapter();
+
+            try
+            {
+                String sql = "SELECT * FROM parRegion";
+                this.cmd = new SqlCommand(sql, db.getConex());
+                da = new SqlDataAdapter(cmd.CommandText, db.getConex());
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            return da;
+        }
+
+        public DataTable getTableRegion()
+        {
+            DataTable dt = new DataTable();
+            getRegion().Fill(dt);
+
+            return dt;
+        }
+
+
+
     }
 }

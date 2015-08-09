@@ -52,6 +52,18 @@ namespace Financiero.App.CDP
             this.DropDownList1.Items.Insert(0, new ListItem("Elija una Opcion..", "0"));*/
         }
 
+        private DataTable cargarComunas1()
+        {
+            DataTable dt = new DataTable();
+            DataSet ds = new DataSet();
+
+            da = comunaDao.getComuna();
+            da.Fill(dt);
+           
+            return dt;
+           
+        }
+
         void cargarRegiones()
         {
             DataSet ds = new DataSet();
