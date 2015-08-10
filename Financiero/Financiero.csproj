@@ -275,6 +275,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Class\DAO\cdpDAO.cs" />
     <Compile Include="Class\DAO\ComunaDao.cs" />
+    <Compile Include="Class\DAO\PruebaDao.cs" />
     <Compile Include="Class\DAO\RegionDao.cs" />
     <Compile Include="Class\Database.cs" />
     <Compile Include="Class\DTO\cdpDTO.cs" />
