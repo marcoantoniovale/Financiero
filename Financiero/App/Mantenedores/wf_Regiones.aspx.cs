@@ -15,6 +15,11 @@ namespace Financiero.App.Mantenedores
 {
     public partial class wf_Regiones : System.Web.UI.Page
     {
+
+        StringBuilder html2 = new StringBuilder();
+
+
+
         protected void Page_Load(object sender, EventArgs e)
         {
             getTableRegion();
@@ -45,7 +50,7 @@ namespace Financiero.App.Mantenedores
 
         void getTableRegion()
         {
-            int asd = 0;
+            int contador = 0;
             RegionDao regDao = new RegionDao();
             
 
@@ -86,24 +91,22 @@ namespace Financiero.App.Mantenedores
         //Building the Data rows.
         foreach (DataRow row in dt.Rows)
         {
-            asd++;
+            contador++;
             html.Append("<tr class='table-title'>");
             
-
+            DataColumn dc = new DataColumn();
             foreach (DataColumn column in dt.Columns)
-            {
+            { 
                 
                 html.Append("<td>");
-               html.Append(row[column.ColumnName]);
-                html.Append("</td>");
-               
+                html.Append("<div>"+row[column.ColumnName]+"</div>");
+                html.Append("</td>");           
+                
             }
-            html.Append("<td>");
-            html.Append("adasd"+asd);
-            html.Append("</td>");
-            html.Append("<td>");
-            html.Append("adasd" + asd);
-            html.Append("</td>");         
+
+
+            html.Append("<td><a href='#' id='btnModificar" + contador + "' onClick='getDate(" + row[0] + ")'>Modificar<a></td>");       
+            html.Append("<td><a href='#' id='btnEliminar"+contador+"' onClick='getDate()'>Eliminar<a></td>");          
             html.Append("</tr>");
         }
  
@@ -112,16 +115,70 @@ namespace Financiero.App.Mantenedores
  
         //Append the HTML string to Placeholder.
         PlaceHolder1.Controls.Add(new Literal { Text = html.ToString() });
+        //PlaceHolderPrueba.Controls.Add(new Literal { Text = html.ToString() });
 
-
+            
         }
+    
 
-       [System.Web.Services.WebMethod(BufferResponse = false)]
-        public String asd()
+
+
+       [System.Web.Services.WebMethod]
+        public static String getDate()
         {
-            String asd = "";
-            return asd;
+            //getTableRegion();
+           /*StringBuilder html = new StringBuilder();
+            html = null;
+            html.Append("<input type='text'>");*/
+            /*String html = "<input type='text'>";
+            //PlaceHolderPrueba.Controls.Add(new Literal { Text = html.ToString() });
+            Literal b = new Literal { Text = html.ToString() };
+            html.ToString();*/
+            String var1 = "Hola1";
+            String var2 = "Hola2";
+            
+            return var1 + "@" + var2;
         }
+
+
+
+       public static String getTableRegion2()
+       {
+           
+           int contador = 0;
+           RegionDao regDao = new RegionDao();
+
+
+           //Populating a DataTable from database.
+           DataTable dt = regDao.getTableRegion();
+
+           //Building an HTML string.
+           StringBuilder html2 = new StringBuilder();
+
+           //Table start.
+           html2.Append("<table class='table table-bordered'");
+
+           //Building the Header row.
+           html2.Append("<tr>");
+
+           html2.Append("<th>");
+           html2.Append("Id Región");
+           html2.Append("</th>");
+
+           
+
+           html2.Append("</tr>");
+
+           
+           //Table end.
+           html2.Append("</table>");
+
+           //Append the HTML string to Placeholder.
+           //PlaceHolder1.Controls.Add(new Literal { Text = html.ToString() });
+           //PlaceHolderPrueba.Controls.Add(new Literal { Text = html2.ToString() });
+
+           return html2.ToString();
+       }
         
 
        

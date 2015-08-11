@@ -21,7 +21,9 @@
 <body>
      <!--<asp:ScriptReference Name="jquery" />-->
     <form runat="server">
-    <asp:ScriptManager runat="server">
+    <asp:ScriptManager runat="server" EnablePageMethods ="true">
+
+
          
             <Scripts>
     
