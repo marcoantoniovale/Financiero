@@ -36,4 +36,46 @@ c:\users\jaime\documents\visual studio 2012\Projects\Financiero\Financiero\bin\e
 c:\users\jaime\documents\visual studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.dll
 c:\users\jaime\documents\visual studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.pdb
 C:\Users\Jaime\documents\visual studio 2012\Projects\Financiero\Financiero\bin\AjaxControlToolkit.dll
+<<<<<<< HEAD
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\Financiero.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\Financiero.pdb
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\AjaxControlToolkit.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\Antlr3.Runtime.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\DotNetOpenAuth.Core.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\EntityFramework.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\System.Web.Optimization.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\System.Web.Providers.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\WebGrease.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\EntityFramework.xml
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\DotNetOpenAuth.Core.xml
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\es\EntityFramework.resources.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\es\System.Web.Providers.resources.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.csprojResolveAssemblyReference.cache
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.dll
+C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.pdb
+=======
 C:\Users\Jaime\documents\visual studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.csprojResolveAssemblyReference.cache
+>>>>>>> 6e92f6e7e7b09e9feec747fd16a8a2a1f67559fc
