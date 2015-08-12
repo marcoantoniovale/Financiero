@@ -273,7 +273,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Class\DAO\cdpDAO.cs" />
+    <Compile Include="Class\DAO\CdpDao.cs" />
     <Compile Include="Class\DAO\ComunaDao.cs" />
     <Compile Include="Class\DAO\PruebaDao.cs" />
     <Compile Include="Class\DAO\RegionDao.cs" />

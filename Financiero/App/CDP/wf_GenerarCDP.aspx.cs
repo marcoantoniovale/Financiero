@@ -15,7 +15,7 @@ namespace Financiero.App.CDP
 {
     public partial class GenerarCDP : System.Web.UI.Page
     {
-        cdpDAO cdp = new cdpDAO();
+        CdpDao cdp = new CdpDao();
         ComunaDao comunaDao = new ComunaDao();
         
         SqlDataAdapter da = new SqlDataAdapter();
