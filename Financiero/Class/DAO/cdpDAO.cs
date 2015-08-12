@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace Financiero.Class.DAO
 {
-    public class cdpDAO
+    public class CdpDao
     {
         private SqlCommand cmd;
         Database db = new Database();
