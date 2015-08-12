@@ -130,14 +130,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <Content Include="App\CDP\GenerarCDP.aspx" />
-    <Content Include="App\CDP\VerCDP.aspx" />
     <Content Include="App\Mantenedores\wf_LineaAccionaspx.aspx" />
-=======
     <Content Include="App\CDP\wf_GenerarCDP.aspx" />
     <Content Include="App\CDP\wf_VerCDP.aspx" />
->>>>>>> 6e92f6e7e7b09e9feec747fd16a8a2a1f67559fc
     <Content Include="App\Mantenedores\wf_ModeloAtencion.aspx" />
     <Content Include="App\Mantenedores\wf_Provincias.aspx" />
     <Content Include="App\Mantenedores\wf_Regiones.aspx" />
