@@ -1,0 +1,10 @@
+$ cat .gitignore	
+Financiero/bin/*
+Financiero/obj/*
+
+
+
+#Comentario para cualquier cosa
+
+
+*~	
