@@ -8,7 +8,7 @@
        
         <asp:UpdatePanel ID="up_Regiones" runat="server"></asp:UpdatePanel>
        
-       <h1 class="text-center">Mantenedor Regiones</h1>
+       <h1 class="text-center">Mantenedor Regiones PROBANDO</h1>
         <div class="page-header">
               <h3>I. Identificación de Regi&oacute;n</h3>
         </div>

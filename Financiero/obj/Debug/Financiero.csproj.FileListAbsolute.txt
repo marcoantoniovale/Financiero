@@ -111,6 +111,5 @@ C:\AppServ\www\Financiero\Financiero\bin\es\System.Web.Optimization.resources.dl
 C:\AppServ\www\Financiero\Financiero\bin\es\System.Web.Providers.resources.dll
 C:\AppServ\www\Financiero\Financiero\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
 C:\AppServ\www\Financiero\Financiero\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
-C:\AppServ\www\Financiero\Financiero\obj\Debug\Financiero.csprojResolveAssemblyReference.cache
 C:\AppServ\www\Financiero\Financiero\obj\Debug\Financiero.dll
 C:\AppServ\www\Financiero\Financiero\obj\Debug\Financiero.pdb
