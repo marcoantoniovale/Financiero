@@ -78,7 +78,7 @@
     </div>
 
     <script>
-        //$("#myDiv").hide();
+       
         function getDate() {
             PageMethods.set_path("/App/Manetenedores/wf_Regiones.aspx");      
             $.ajax({

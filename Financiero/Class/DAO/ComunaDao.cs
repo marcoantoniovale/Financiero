@@ -30,5 +30,7 @@ namespace Financiero.Class.DAO
             return da;
         }
 
+     
+
     }
 }

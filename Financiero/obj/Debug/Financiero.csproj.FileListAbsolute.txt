@@ -75,7 +75,6 @@ C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\es
 C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.csprojResolveAssemblyReference.cache
 C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.dll
 C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.pdb
-C:\Users\Jaime\documents\visual studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.csprojResolveAssemblyReference.cache
 C:\AppServ\www\Financiero\Financiero\bin\Financiero.dll
 C:\AppServ\www\Financiero\Financiero\bin\Financiero.pdb
 C:\AppServ\www\Financiero\Financiero\bin\AjaxControlToolkit.dll
