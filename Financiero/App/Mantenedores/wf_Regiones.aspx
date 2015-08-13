@@ -35,19 +35,19 @@
         <asp:Label ID="Alerta" runat="server" Text=""></asp:Label>
         <br />
        </div>
-         <div class="row">
+        <div class="row">
             <div class="panel panel-default">
                 <h1 class="text-center">Ver Regiones </h1>
                 <div class="table-responsive">
-           <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+                    <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
 
 
-                    
 
-        </div>
+
                 </div>
+            </div>
 
-             
+
         </div>
 
         <div id="Result">

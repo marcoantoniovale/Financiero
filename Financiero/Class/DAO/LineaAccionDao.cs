@@ -55,5 +55,13 @@ namespace Financiero.Class.DAO
             return da;
         }
 
+        public DataTable getTableLineaAccion()
+        {
+            DataTable dt = new DataTable();
+            getLineaAccion().Fill(dt);
+
+            return dt;
+        }
+
     }
 }

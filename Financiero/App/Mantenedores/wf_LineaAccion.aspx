@@ -31,5 +31,16 @@
         <br />
                 
        </div>
+
+   <div class="row">
+            <div class="panel panel-default">
+                <h1 class="text-center">Ver L&iacute;nea de Acci&oacute;n </h1>
+                <div class="table-responsive">
+                    <asp:PlaceHolder ID="ph_LineaAccion" runat="server"></asp:PlaceHolder>
+                </div>
+            </div>
+
+
+        </div>
          </div>
 </asp:Content>
