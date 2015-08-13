@@ -6,8 +6,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
        
-       <asp:UpdatePanel ID="UpdatePanel1" runat="server">
-       </asp:UpdatePanel>
+        <asp:UpdatePanel ID="up_Regiones" runat="server"></asp:UpdatePanel>
        
        <h1 class="text-center">Mantenedor Regiones</h1>
         <div class="page-header">
@@ -57,7 +56,7 @@
 
         </div>
 
-
+   
         <div id="myDiv" style="width:300px; height:300px; position:fixed; left:100px; top:100px; background-color:#666666;">
             <div class='col-md-6'>
             <div class="form-group">
@@ -72,14 +71,14 @@
                         <input ID="txt5" class="form-control" type="text" />            
                     </div>
             </div>
-        </div>
+        </div> 
       
         
 
     </div>
 
     <script>
-       
+        $("#myDiv").hide();
         function getDate() {
             PageMethods.set_path("/App/Manetenedores/wf_Regiones.aspx");      
             $.ajax({
@@ -93,17 +92,8 @@
 
                     //alert(msg);
                     alert(msg.d);
-                    
-                    //$("#myDiv").text(msg.d);
-                    //$("#txt1").text(msg.d);
                     $("#txt5").val(msg.d);
-                    
-                    /*if (msg.d) {
-                        //$("#Result").text(msg.d);
-                        alert("Yahoo");
-                    } else {
-                        alert("Errorrrr");
-                    }*/
+
                 }
             });
         }

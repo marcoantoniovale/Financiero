@@ -130,7 +130,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App\Mantenedores\wf_LineaAccionaspx.aspx" />
+    <Content Include="App\Mantenedores\wf_LineaAccion.aspx" />
     <Content Include="App\CDP\wf_GenerarCDP.aspx" />
     <Content Include="App\CDP\wf_VerCDP.aspx" />
     <Content Include="App\Mantenedores\wf_ModeloAtencion.aspx" />
@@ -258,12 +258,12 @@
     <Compile Include="App\CDP\wf_VerCDP.aspx.designer.cs">
       <DependentUpon>wf_VerCDP.aspx</DependentUpon>
     </Compile>
-    <Compile Include="App\Mantenedores\wf_LineaAccionaspx.aspx.cs">
-      <DependentUpon>wf_LineaAccionaspx.aspx</DependentUpon>
+    <Compile Include="App\Mantenedores\wf_LineaAccion.aspx.cs">
+      <DependentUpon>wf_LineaAccion.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="App\Mantenedores\wf_LineaAccionaspx.aspx.designer.cs">
-      <DependentUpon>wf_LineaAccionaspx.aspx</DependentUpon>
+    <Compile Include="App\Mantenedores\wf_LineaAccion.aspx.designer.cs">
+      <DependentUpon>wf_LineaAccion.aspx</DependentUpon>
     </Compile>
     <Compile Include="App\Mantenedores\wf_ModeloAtencion.aspx.cs">
       <DependentUpon>wf_ModeloAtencion.aspx</DependentUpon>

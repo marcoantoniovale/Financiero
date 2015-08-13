@@ -13,13 +13,13 @@ namespace Financiero.App.Mantenedores {
     public partial class wf_Regiones {
         
         /// <summary>
-        /// Control UpdatePanel1.
+        /// Control up_Regiones.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel1;
+        protected global::System.Web.UI.UpdatePanel up_Regiones;
         
         /// <summary>
         /// Control lblManRegion.
