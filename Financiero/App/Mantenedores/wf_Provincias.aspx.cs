@@ -34,5 +34,33 @@ namespace Financiero.App.Mantenedores
             this.ddlRegion.DataBind();
             this.ddlRegion.Items.Insert(0, new ListItem("Elija una region..", "0"));
         }
+
+        protected void btnGuardarProvincia_Click(object sender, EventArgs e)
+        {
+
+            Alerta.Enabled = true;
+
+            int strManProvinciaRegion = int.Parse(ddlRegion.SelectedItem.Value);
+            
+            /*
+            String strManProvinciaNombre = txtManProvincia.Text;
+
+            ProvinciaDao provDao = new ProvinciaDao();
+            if (provDao.insertProvincia(strManProvinciaRegion, strManProvinciaNombre) == "Ok")
+            {
+               Alerta.Text = "Se ha guardado correctamente";
+               Response.Redirect("MantenedorProvincias");
+
+            }
+            else
+            {
+                
+
+            }*/
+            Alerta.Text = strManProvinciaRegion.ToString();
+
+        }
     }
+
+
 }

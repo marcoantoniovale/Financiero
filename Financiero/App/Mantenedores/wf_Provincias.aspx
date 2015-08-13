@@ -18,7 +18,8 @@
            <div class='col-md-6'>
                     <div class="form-group">
                         <asp:Label ID="lblSelRegion" runat="server" Text="Region"></asp:Label>
-                       <asp:DropDownList ID="ddlRegion" CssClass="form-control btn-sename" runat="server"></asp:DropDownList>            
+                       <asp:DropDownList ID="ddlRegion" CssClass="form-control btn-sename" runat="server"></asp:DropDownList> 
+                                   
                     </div>
            </div>
            <div class='col-md-6'>
@@ -32,7 +33,7 @@
       
    
    
-        <asp:Button ID="btnGuardarProvincia" runat="server" CssClass="btn btn-sename-md" Text="Guardar Provincia" />
+        <asp:Button ID="btnGuardarProvincia" runat="server" CssClass="btn btn-sename-md" Text="Guardar Provincia" OnClick="btnGuardarProvincia_Click" />
         <asp:Label ID="Alerta" runat="server" Text=""></asp:Label>
         <br />
        </div>

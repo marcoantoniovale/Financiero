@@ -25,12 +25,27 @@
                         <asp:TextBox ID="txtManModAtencionNombreCorto" CssClass="form-control" runat="server"></asp:TextBox>             
                     </div>
            </div>
-
+           <div>
+               <asp:Button ID="btnGuardarRegion" runat="server" CssClass="btn btn-sename-md" Text="Guardar Región" />
+           </div>
 
       </div>
    
-    <div>
-        <asp:Button ID="btnGuardarRegion" runat="server" CssClass="btn btn-sename-md" Text="Guardar Región" />
-    </div>
+   
+
+           <div class="row">
+            <div class="panel panel-default">
+                <h1 class="text-center">Ver Modelos Atencion</h1>
+                <div class="table-responsive">
+                    <asp:PlaceHolder ID="ph_ModAtencion" runat="server"></asp:PlaceHolder>
+
+
+
+
+                </div>
+            </div>
+
+
+        </div>
 </div>
 </asp:Content>

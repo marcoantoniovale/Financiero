@@ -56,7 +56,7 @@
 
         </div>
 
-   <!--
+   
         <div id="myDiv" style="width:300px; height:300px; position:fixed; left:100px; top:100px; background-color:#666666;">
             <div class='col-md-6'>
             <div class="form-group">
@@ -72,7 +72,7 @@
                     </div>
             </div>
         </div> 
-      -->
+      
         
 
     </div>

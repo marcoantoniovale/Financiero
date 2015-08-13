@@ -10,7 +10,7 @@
 namespace Financiero.App.Mantenedores {
     
     
-    public partial class wf_ModeloAtencion {
+    public partial class wf_ModeloIntervencion {
         
         /// <summary>
         /// Control UpdatePanel1.
@@ -22,57 +22,66 @@ namespace Financiero.App.Mantenedores {
         protected global::System.Web.UI.UpdatePanel UpdatePanel1;
         
         /// <summary>
-        /// Control lblManModAtencion.
+        /// Control btn_manModIntPlazas.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblManModAtencion;
+        protected global::System.Web.UI.WebControls.Button btn_manModIntPlazas;
         
         /// <summary>
-        /// Control txtManModAtencion.
+        /// Control btn_manModIntBorrar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtManModAtencion;
+        protected global::System.Web.UI.WebControls.Button btn_manModIntBorrar;
         
         /// <summary>
-        /// Control lblManModAtencionNombreCorto.
+        /// Control btn_manModIntSum.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblManModAtencionNombreCorto;
+        protected global::System.Web.UI.WebControls.Button btn_manModIntSum;
         
         /// <summary>
-        /// Control txtManModAtencionNombreCorto.
+        /// Control btn_manModIntRest.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtManModAtencionNombreCorto;
+        protected global::System.Web.UI.WebControls.Button btn_manModIntRest;
         
         /// <summary>
-        /// Control btnGuardarRegion.
+        /// Control btn_manModIntMul.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnGuardarRegion;
+        protected global::System.Web.UI.WebControls.Button btn_manModIntMul;
         
         /// <summary>
-        /// Control ph_ModAtencion.
+        /// Control btn_manModIntDiv.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder ph_ModAtencion;
+        protected global::System.Web.UI.WebControls.Button btn_manModIntDiv;
+        
+        /// <summary>
+        /// Control TextBox1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox1;
     }
 }
