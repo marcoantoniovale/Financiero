@@ -1,0 +1,10 @@
+$ cat .gitignore	
+bin/*
+obj/*
+
+
+
+#Comentario para cualquier cosa
+
+
+*~	
