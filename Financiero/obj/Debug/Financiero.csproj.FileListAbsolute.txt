@@ -75,3 +75,46 @@ C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\bin\es
 C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.csprojResolveAssemblyReference.cache
 C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.dll
 C:\Users\Joan\Documents\Visual Studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.pdb
+<<<<<<< HEAD
+=======
+C:\Users\Jaime\documents\visual studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.csprojResolveAssemblyReference.cache
+C:\AppServ\www\Financiero\Financiero\bin\Financiero.dll
+C:\AppServ\www\Financiero\Financiero\bin\Financiero.pdb
+C:\AppServ\www\Financiero\Financiero\bin\AjaxControlToolkit.dll
+C:\AppServ\www\Financiero\Financiero\bin\Antlr3.Runtime.dll
+C:\AppServ\www\Financiero\Financiero\bin\AspNet.ScriptManager.jQuery.dll
+C:\AppServ\www\Financiero\Financiero\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\AppServ\www\Financiero\Financiero\bin\DotNetOpenAuth.AspNet.dll
+C:\AppServ\www\Financiero\Financiero\bin\DotNetOpenAuth.Core.dll
+C:\AppServ\www\Financiero\Financiero\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\AppServ\www\Financiero\Financiero\bin\DotNetOpenAuth.OAuth.dll
+C:\AppServ\www\Financiero\Financiero\bin\DotNetOpenAuth.OpenId.dll
+C:\AppServ\www\Financiero\Financiero\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\AppServ\www\Financiero\Financiero\bin\EntityFramework.dll
+C:\AppServ\www\Financiero\Financiero\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\AppServ\www\Financiero\Financiero\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\AppServ\www\Financiero\Financiero\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\AppServ\www\Financiero\Financiero\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\AppServ\www\Financiero\Financiero\bin\Microsoft.ScriptManager.WebForms.dll
+C:\AppServ\www\Financiero\Financiero\bin\Microsoft.Web.Infrastructure.dll
+C:\AppServ\www\Financiero\Financiero\bin\System.Web.Optimization.dll
+C:\AppServ\www\Financiero\Financiero\bin\System.Web.Providers.dll
+C:\AppServ\www\Financiero\Financiero\bin\WebGrease.dll
+C:\AppServ\www\Financiero\Financiero\bin\EntityFramework.xml
+C:\AppServ\www\Financiero\Financiero\bin\DotNetOpenAuth.Core.xml
+C:\AppServ\www\Financiero\Financiero\bin\DotNetOpenAuth.OAuth.xml
+C:\AppServ\www\Financiero\Financiero\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\AppServ\www\Financiero\Financiero\bin\DotNetOpenAuth.OpenId.xml
+C:\AppServ\www\Financiero\Financiero\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\AppServ\www\Financiero\Financiero\bin\DotNetOpenAuth.AspNet.xml
+C:\AppServ\www\Financiero\Financiero\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\AppServ\www\Financiero\Financiero\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\AppServ\www\Financiero\Financiero\bin\es\EntityFramework.resources.dll
+C:\AppServ\www\Financiero\Financiero\bin\es\System.Web.Optimization.resources.dll
+C:\AppServ\www\Financiero\Financiero\bin\es\System.Web.Providers.resources.dll
+C:\AppServ\www\Financiero\Financiero\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\AppServ\www\Financiero\Financiero\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\AppServ\www\Financiero\Financiero\obj\Debug\Financiero.csprojResolveAssemblyReference.cache
+C:\AppServ\www\Financiero\Financiero\obj\Debug\Financiero.dll
+C:\AppServ\www\Financiero\Financiero\obj\Debug\Financiero.pdb
+>>>>>>> 51e9da4dd97d60d3cafbe455378791383250f5b2
