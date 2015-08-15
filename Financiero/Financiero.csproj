@@ -300,6 +300,7 @@
     <Compile Include="Class\DAO\CdpDao.cs" />
     <Compile Include="Class\DAO\ComunaDao.cs" />
     <Compile Include="Class\DAO\LineaAccionDao.cs" />
+    <Compile Include="Class\DAO\ModeloIntervencionDao.cs" />
     <Compile Include="Class\DAO\ProvinciaDao.cs" />
     <Compile Include="Class\DAO\PruebaDao.cs" />
     <Compile Include="Class\DAO\RegionDao.cs" />

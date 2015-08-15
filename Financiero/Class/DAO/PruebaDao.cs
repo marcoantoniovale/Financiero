@@ -7,5 +7,6 @@ namespace Financiero.Class.DAO
 {
     public class PruebaDao
     {
+        
     }
 }

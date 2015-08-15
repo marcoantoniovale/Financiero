@@ -232,7 +232,7 @@
                             <li><a id="A2" tabindex="-1" runat="server" href="~/MantenedorRegion"> Regiones</a></li>
                             <li><a id="A3" tabindex="-1" runat="server" href="~/MantenedorModAtencion">Modelo de Atenci&oacute;n</a></li>
                             <li><a id="A4" tabindex="-1" runat="server" href="~/VerCDP">Comunas</a></li>        
-                            <li><a id="A6" tabindex="-1" runat="server" href="~/VerCDP">El jaime se come al joan</a></li>                
+                                         
                         </ul>
                     </li>
                     

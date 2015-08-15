@@ -113,4 +113,3 @@ C:\AppServ\www\Financiero\Financiero\bin\es\Microsoft.AspNet.Membership.OpenAuth
 C:\AppServ\www\Financiero\Financiero\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
 C:\AppServ\www\Financiero\Financiero\obj\Debug\Financiero.dll
 C:\AppServ\www\Financiero\Financiero\obj\Debug\Financiero.pdb
-C:\Users\Jaime\documents\visual studio 2012\Projects\Financiero\Financiero\obj\Debug\Financiero.csprojResolveAssemblyReference.cache

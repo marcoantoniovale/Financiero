@@ -6,9 +6,9 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
        
-        <asp:UpdatePanel ID="up_Regiones" runat="server"></asp:UpdatePanel>
-       
-       <h1 class="text-center">Mantenedor Regiones PROBANDO</h1>
+        <asp:UpdatePanel ID="up_Regiones" runat="server">
+            <ContentTemplate>
+                 <h1 class="text-center">Mantenedor Regiones PROBANDO</h1>
         <div class="page-header">
               <h3>I. Identificación de Regi&oacute;n</h3>
         </div>
@@ -35,20 +35,31 @@
         <asp:Label ID="Alerta" runat="server" Text=""></asp:Label>
         <br />
        </div>
-        <div class="row">
+
+            </ContentTemplate>
+
+        </asp:UpdatePanel>
+       
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+
+                <div class="row">
             <div class="panel panel-default">
                 <h1 class="text-center">Ver Regiones </h1>
                 <div class="table-responsive">
                     <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
-
-
-
 
                 </div>
             </div>
 
 
         </div>
+
+
+            </ContentTemplate>
+
+        </asp:UpdatePanel>
+        
 
         <div id="Result">
         
