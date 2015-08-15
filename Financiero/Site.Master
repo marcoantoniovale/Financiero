@@ -221,7 +221,7 @@
                         <ul class="dropdown-menu">
                             <li><a tabindex="-1" runat="server" href="~/GenerarCDP"> Generar CDP</a></li>
                             <li><a id="A1" tabindex="-1" runat="server" href="~/VerCDP">Ver CDP</a></li>
-                            <li><a id="A5" tabindex="-1" runat="server" href="~/VerCDP">Probando XD</a></li>
+                            
 
                           
                         </ul>
