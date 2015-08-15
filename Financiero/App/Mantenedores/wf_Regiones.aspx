@@ -33,6 +33,7 @@
    
         <asp:Button ID="btnGuardarRegion" runat="server" CssClass="btn btn-sename-md" Text="Guardar Región" OnClick="btnGuardarRegion_Click" />
         <asp:Label ID="Alerta" runat="server" Text=""></asp:Label>
+           <asp:Button ID="Button1" runat="server" Text="Button" />
         <br />
        </div>
 
