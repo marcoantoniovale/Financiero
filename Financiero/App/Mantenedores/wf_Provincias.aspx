@@ -35,6 +35,10 @@
    
         <asp:Button ID="btnGuardarProvincia" runat="server" CssClass="btn btn-sename-md" Text="Guardar Provincia" OnClick="btnGuardarProvincia_Click" />
         <asp:Label ID="Alerta" runat="server" Text=""></asp:Label>
+           <asp:DropDownList ID="DropDownList1" runat="server">
+               <asp:ListItem Value="1asd">1</asp:ListItem>
+               <asp:ListItem Value="2dsa"></asp:ListItem>
+           </asp:DropDownList>
         <br />
        </div>
          </div>
