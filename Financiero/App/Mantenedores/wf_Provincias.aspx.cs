@@ -22,17 +22,26 @@ namespace Financiero.App.Mantenedores
         {
             cargarRegiones();
         }
-        void cargarRegiones()
-        {
-            DataSet ds = new DataSet();
 
-            da = regdao.getRegion();
-            da.Fill(ds);
-            this.ddlRegion.DataSource = ds;
-            this.ddlRegion.DataValueField = "id_Region";
-            this.ddlRegion.DataTextField = "descripcion";
-            this.ddlRegion.DataBind();
-            this.ddlRegion.Items.Insert(0, new ListItem("Elija una region..", "0"));
+        public void cargarRegiones()
+        {
+            if (!IsPostBack)
+            {
+                DataSet ds = new DataSet();
+
+                da = regdao.getRegion();
+                da.Fill(ds);
+
+                ddlRegion.AppendDataBoundItems = true;
+
+                ListItem oItem = new ListItem("Eliga una region...", "0");
+                this.ddlRegion.Items.Add(oItem);
+                this.ddlRegion.DataSource = ds;
+                this.ddlRegion.DataValueField = "id_Region";
+                this.ddlRegion.DataTextField = "descripcion";
+                this.ddlRegion.DataBind();
+
+            }
         }
 
         protected void btnGuardarProvincia_Click(object sender, EventArgs e)
@@ -41,7 +50,7 @@ namespace Financiero.App.Mantenedores
             Alerta.Enabled = true;
 
             int strManProvinciaRegion = int.Parse(ddlRegion.SelectedItem.Value);
-            
+            ddlRegion.SelectedValue.ToString();
             /*
             String strManProvinciaNombre = txtManProvincia.Text;
 
@@ -57,8 +66,9 @@ namespace Financiero.App.Mantenedores
                 
 
             }*/
-            Alerta.Text = strManProvinciaRegion.ToString();
+            
 
+            Alerta.Text = ddlRegion.SelectedItem.Text + " - " + ddlRegion.SelectedValue.ToString() + " - " + ddlRegion.SelectedItem.Value;            
         }
     }
 
